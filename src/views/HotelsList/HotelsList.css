@@ -1,0 +1,33 @@
+.hotels__title{
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin-bottom: 60px;
+}
+.hotels-container{
+	width: 100%;
+	max-width: 1200px;
+	padding: 10px 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hotels-list{
+	clear: both;
+	margin-top: 70px;
+}
+.hotel-filters{
+	width: 300px;
+	margin-right: 80px;
+}
+.hotel-filters__title{
+	text-align: left;
+	letter-spacing: 0.2em;
+}
+.hotel-filters__reset{
+	background: none;
+	border: none;
+	font-size: 0.95em;
+	color: #616161;
+	cursor: pointer;
+}
+

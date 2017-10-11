@@ -1,0 +1,81 @@
+.hotel-wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.hotel-wrapper__title{
+	text-transform: uppercase;
+  color: #f98100;
+  letter-spacing: 0.1em;
+  margin-top: 0px;
+}
+.hotel-wrapper__image{
+	margin-right: 20px; 
+	border-radius: 6px;
+}
+.hotel-wrapper__history{
+	display: none;
+	padding-top: 5px;
+}
+.hotel-wrapper__info{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	padding-top: 5px;
+}
+.hotel-wrapper__bts {
+  float: left;
+  margin-right: 20px;
+}
+.hotel-infos{
+	width: 390px;
+  margin-right: 25px;
+  border-right: 1px solid #dcdcdc;
+  padding-right: 30px;
+}
+.hotel-price{
+	width: 100px;
+  padding: 15px 0;
+  align-self: center;
+}
+	.hotel-price__label {
+    display: block;
+    font-size: 0.9em;
+    text-align: left;
+    color: #949494;
+	}
+	.hotel-price__value {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #79bd1a;
+	}
+.hotel-wrapper__description{
+	color: #949494;
+  font-size: 0.9em;
+  margin: 25px 0; 
+}
+.back-description{
+	float: right;
+  margin-top: -41px;
+  padding-left: 40px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  color: #525252;
+  background: url(images/back-description.svg) no-repeat;
+}
+
+@media (max-width: 425px){
+  .back-description{
+    float: left;
+    margin-top: -10px;
+  }
+  .hotel-wrapper__image{
+    margin-bottom: 10px; 
+  } 
+}

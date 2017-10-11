@@ -1,0 +1,11 @@
+.price-history{
+  height: 180px;
+  width: 555px;
+  margin-top: 25px;
+}
+@media (max-width: 425px){
+	.price-history{
+	  width: 335px;
+	  margin-top: 55px;
+	}	
+}

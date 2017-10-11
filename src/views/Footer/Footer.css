@@ -1,0 +1,20 @@
+footer{
+	margin-top: 100px;
+	text-align: center; 
+}
+	footer ul{
+		list-style: none;
+	}
+		footer ul li{
+			display: inline;
+			margin-right: 30px;
+		}
+			footer ul li img{
+				width: 30px;
+			}
+
+footer p{
+  font-size: 0.9em;
+  color: #929292;
+  margin-top: 20px;
+}

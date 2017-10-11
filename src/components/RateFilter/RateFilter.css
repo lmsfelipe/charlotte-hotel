@@ -1,0 +1,13 @@
+.rate-filter{
+	margin-top: 20px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 20px;
+}
+.rate-filter__title{
+	display: block;
+  font-size: 0.75em;
+  color: #b1b1b1;
+}
+.rate-filter__stars{
+	font-size: 2em;	
+}

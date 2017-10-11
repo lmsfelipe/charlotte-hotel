@@ -1,0 +1,25 @@
+.price-filter{
+	height: 100px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.price-filter__title{
+  display: block;
+  margin-bottom: 25px;
+  font-size: 0.75em;
+  color: #b1b1b1;
+}
+.input-range{
+  width: 93%;
+  margin: 0 auto;
+}
+.input-range__slider{
+	background: #ffffff;
+	border: none;
+	box-shadow: 0 0 0px 3px #f98100;
+}
+.input-range__track{
+	height: 0.22rem;
+}
+.input-range__track--active{
+	background: #f98100;
+}
